@@ -37,6 +37,5 @@ spec:
   containers:
   - name: customcontroller
     image: go-controller
-    command: ["sleep", "9999999999"]
     imagePullPolicy: IfNotPresent
   serviceAccountName: cc-sa
